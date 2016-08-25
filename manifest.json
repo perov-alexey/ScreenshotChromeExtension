@@ -1,6 +1,6 @@
 {
 	"name": "Ad Screenshot",
-	"version": "1",
+	"version": "1.1",
 	"manifest_version": 2,
 	"page_action": {
 		"default_icon": "icon48.png"
@@ -17,8 +17,8 @@
 				"contentscript.js"
 			],
 			"matches": [
-				"http://*/*",
-				"https://*/*"
+              "http://*/*",
+              "https://*/*"
 			],
             "run_at": "document_start"
 		}
